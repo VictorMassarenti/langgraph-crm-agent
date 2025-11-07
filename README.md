@@ -69,7 +69,7 @@ Ferramentas disponíveis
 
 ## Executando o Agente no LangGraph Studio
 - Instale o CLI do Studio: `pip install langgraph-cli`.
-- No diretório `ai-agent-sales/`, execute: `langgraph dev`.
+- No diretório `langgraph-crm-agent`, execute: `langgraph dev` ou `langgraph dev --allow-blocking` no Windows.
 - Selecione o grafo `workflow` e converse com o agente. Exemplos:
   - “Cadastre o Lennon; adicione a nota follow‑up; crie tarefa para amanhã; rascunhe a proposta ACME.”
   - “Rascunhe uma proposta de Onboarding para o Lennon.” → “Adicione 2 unidades de Consultoria por R$ 5000 cada.” → “Recalcule os totais.”
